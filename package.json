@@ -1,0 +1,24 @@
+{
+  "name": "pastebin-lite",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.8.0",
+    "@vercel/kv": "^3.0.0",
+    "nanoid": "^5.1.6",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.10",
+    "@types/react": "19.2.10",
+    "prisma": "^5.8.0",
+    "typescript": "^5.3.3"
+  }
+}
